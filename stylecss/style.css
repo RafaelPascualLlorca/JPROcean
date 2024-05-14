@@ -4,6 +4,10 @@
     font-family: "Outfit", sans-serif;
 }
 
+p{
+    margin-bottom: 1px;
+
+}
 .img {
     width: 100%;
 }
