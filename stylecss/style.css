@@ -59,6 +59,11 @@
     margin-bottom: 3%;
 }
 
+.texto_somos {
+    font-size: 130%;
+    color:  rgb(10, 169, 213);
+}
+
 .imagen_intro {
     width: 55%;
     margin-left: 22.5%;
@@ -90,6 +95,26 @@
     color:  rgb(10, 169, 213);
 }
 
+.link_noticias {
+    text-decoration: none;
+}
+
+.contacto_div_volver {
+    padding: 1%;
+    align-content: center;
+}
+
+.texto_volver {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+}
+
+.texto_icono {
+    font-size: 150%;
+    color:  rgb(10, 169, 213);
+}
+
 .fila{
     display: flex;
     width: 100%;
@@ -97,11 +122,41 @@
     padding: 3%;
 }
 
+.fila_contacto{
+    width: 100%;
+    background-color: white;
+    padding: 3%;
+}
+
+.titulo_contacto {
+    width: 100%;
+    text-align: center;
+    background-color:  rgb(10, 169, 213);
+    color: white;
+    padding: 1%;
+    font-size: 180%;
+}
+
+.contacto_div_imagen {
+    width: 50%;
+    text-align: center;
+    align-content: center;
+}
+
+.imagen_icono {
+    width: 40%;
+    margin: 3%;
+}
+
+.contacto_icono {
+    display: flex;
+}
+
 .col-izq {
     text-align: center;
     width: 50%; 
     align-content: center;
-    padding-right: 3%;
+    padding: 2%;
 }
 
 .link {
@@ -115,11 +170,17 @@
     color: rgb(10, 169, 213);
 }
 
+.texto_fila2 {
+    font-size: 150%;
+    color: rgb(10, 169, 213);
+    margin-top: 15%;
+}
+
 .col-der {
     width: 50%;
     text-align: center;
     align-content: center;
-    padding-left: 3%;
+    padding: 2%;
 }
 
 .imagen_contaminacion {
@@ -130,4 +191,29 @@
 .texto_carrusel {
     font-size: 200%;
     background-color: rgba(0, 0, 0, 0.578);
+}
+
+
+@media screen and (max-width:1000px ) {
+    .bienvenida,.texto_somos {
+        font-size: 110%;
+    }
+
+    .texto_fila, .texto_fila2 {
+        font-size: 110%;
+    }
+
+    .imagen_jpr, .imagen_quienes_somos {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px ) {
+    .contacto_icono, .fila {
+        display: block;
+    }
+
+    .contacto_div_imagen, .col-izq, .col-der {
+        width: 100%;
+    }
 }
