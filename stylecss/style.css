@@ -13,13 +13,13 @@ p{
 }
 
 #navegacion {
-    background-color: rgb(18, 180, 220);
+    background-color: rgb(27, 72, 179);
     width: 100%;
     padding: 1%;
 }
 
 .noticias_pt2 {
-    color: rgb(18, 180, 220);
+    color: rgb(27, 72, 179);
 }
 
 .contenedor_carrusel {
@@ -72,21 +72,29 @@ p{
     color:  rgb(10, 169, 213);
 }
 
+.contacta_nosotros {
+    background-color: rgb(27, 72, 179);
+}
+
 .imagen_intro {
-    width: 55%;
-    margin-left: 22.5%;
+    width: 60%;
+    margin-left: 20%;
     background-color: white;
 }
 
 .introduccion {
-    background-image: url(../img/imagen_5.png);
+    background-image: url(../img/imagen_35.gif);
 }
 
 .introduccion_texto {
-    background-color: rgb(10, 169, 213);
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 2%;
+    background-image: url(../img/imagen_36.jpeg);
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.conector_intro {
+    background-color: rgb(27, 72, 179);
+    padding: 1%;
 }
 
 .contenedor_texto {
@@ -95,12 +103,12 @@ p{
 }
 
 .bienvenida,.texto_quienes_somos {
-    font-size: 200%;
+    font-size: 185%;
     text-align: center;
 }
 
 .texto_quienes_somos {
-    color:  rgb(10, 169, 213);
+    color:  rgb(27, 72, 179);
 }
 
 .link_noticias {
@@ -109,6 +117,7 @@ p{
 
 .contacto_div_volver {
     padding: 1%;
+    background-color:  rgb(27, 72, 179);
     align-content: center;
 }
 
@@ -120,7 +129,7 @@ p{
 
 .texto_icono {
     font-size: 150%;
-    color:  rgb(10, 169, 213);
+    color:  rgb(255, 255, 255);
 }
 
 .fila{
@@ -132,16 +141,19 @@ p{
 
 .fila_contacto{
     width: 100%;
-    background-color: white;
     padding: 3%;
+}
+
+.bienvenida_tras {
+    background-color:  rgb(27, 72, 179);
+    color:  rgb(27, 72, 179);
 }
 
 .titulo_contacto {
     width: 100%;
     text-align: center;
-    background-color:  rgb(10, 169, 213);
+    background-color:  rgb(27, 72, 179);
     color: white;
-    padding: 1%;
     font-size: 180%;
 }
 
@@ -152,7 +164,7 @@ p{
 }
 
 .imagen_icono {
-    width: 40%;
+    width: 30%;
     margin: 3%;
 }
 
@@ -169,18 +181,18 @@ p{
 
 .link {
     text-decoration: none;
-    color: rgb(10, 169, 213);
+    color: rgb(27, 72, 179);
     font-size: 150%;
 }
 
 .texto_fila {
-    font-size: 150%;
-    color: rgb(10, 169, 213);
+    font-size: 130%;
+    color: rgb(27, 72, 179);
 }
 
 .texto_fila2 {
-    font-size: 150%;
-    color: rgb(10, 169, 213);
+    font-size: 130%;
+    color: rgb(27, 72, 179);
     margin-top: 15%;
 }
 
@@ -193,7 +205,7 @@ p{
 
 .imagen_contaminacion {
     width: 100%;
-    border: 5px solid rgb(10, 169, 213);
+    border: 5px solid rgb(27, 72, 179);
 }
 
 .texto_carrusel {
