@@ -4,6 +4,10 @@
     font-family: "Outfit", sans-serif;
 }
 
+.todo {
+    width: 100%;
+}
+
 p{
     margin-bottom: 1px;
 
@@ -155,6 +159,7 @@ p{
     background-color:  rgb(27, 72, 179);
     color: white;
     font-size: 180%;
+    padding-bottom: 1%;
 }
 
 .contacto_div_imagen {
@@ -164,7 +169,7 @@ p{
 }
 
 .imagen_icono {
-    width: 30%;
+    width: 20%;
     margin: 3%;
 }
 
@@ -211,6 +216,10 @@ p{
 .texto_carrusel {
     font-size: 200%;
     background-color: rgba(0, 0, 0, 0.578);
+}
+
+.texto_somos {
+    color: rgb(27, 72, 179);
 }
 
 
