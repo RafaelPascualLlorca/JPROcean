@@ -10,7 +10,7 @@ body {
 
 .titulo_error {
     text-align: center;
-    background-color: rgb(18, 180, 220);
+    background-color:rgb(27, 72, 179);
     color: white;
     padding: 2%;
     font-size: 200%;
@@ -32,11 +32,11 @@ body {
 .img {
     width: 70%;
     border-radius: 50%;
-    border: 7px solid  rgb(18, 180, 220);
+    border: 7px solid  rgb(27, 72, 179);
 }
 
 .texto {
-    color:rgb(18, 180, 220);
+    color:rgb(27, 72, 179);
     font-size: 200%;
 }
 
