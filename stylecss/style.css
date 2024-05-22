@@ -235,6 +235,14 @@ p{
     .imagen_jpr, .imagen_quienes_somos {
         width: 100%;
     }
+
+    .titulo_contacto {
+        font-size: 130%;
+    }
+
+    .texto_icono {
+        font-size: 125%;
+    }
 }
 
 @media screen and (max-width:800px ) {
