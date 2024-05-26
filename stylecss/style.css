@@ -186,7 +186,8 @@ p{
 
 .link {
     text-decoration: none;
-    color: rgb(27, 72, 179);
+    background-color: rgb(27, 72, 179);
+    color: white;
     font-size: 150%;
 }
 
